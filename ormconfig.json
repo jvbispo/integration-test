@@ -1,0 +1,13 @@
+{
+  "type": "mongodb",
+  "name": "mongo",
+  "url": "mongodb+srv://joao:123321@cluster0.ja8eg.mongodb.net/deals?retryWrites=true&w=majority",
+  "useNewUrlParser": true,
+  "ssl": true,
+  "synchronize": true,
+  "logging": true,
+  "entities": [
+    "/src/modules/**/infra/typeorm/schemas/*.ts"
+  ],
+    "useUnifiedTopology": true
+}

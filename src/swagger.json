@@ -1,0 +1,31 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Integration",
+    "description": "",
+    "version": "1.0.0",
+    "contact": {
+      "name": "joao victor",
+      "email": "jv_bispo@hotmail.com"
+    }
+  },
+
+  "paths": {
+    "/integrate": {
+      "post": {
+        "tags": ["integration"],
+        "summary": "",
+        "description": "integation pipedrive - bling",
+        "responses": {
+          "200": {
+            "description": "integration done"
+          },
+          "400": {
+            "description": "something went wrong"
+          }
+        }
+      }
+    }
+  }
+
+}
